@@ -40,12 +40,13 @@
 
 ## Rozmiar danych
 
-- Wszystkie **rejestry** są 8-bitowe (`0x00`–`0xFF`)  
-- **RAM**: 255 bajtów, adresowane od `[0x00]` do `[0xFE]`  
+- Wszystkie **rejestry** poza OP_SEL są 8-bitowe (`0x00`–`0xFF`)  
+- **OP_SEL** – 4-bitowe (`0x0`–`0xF`), wybór operacji ALU  
+- **RAM**: 255 jednostek 8-bitowych, adresowane od `[0x00]` do `[0xFE]`  
 - Rejestry: `R0, R1, R2, R3, D_A, D_B, OP_SEL, RES`  
   - `D_A, D_B` – operandy dla ALU  
-  - `OP_SEL` – wybór operacji ALU  
   - `RES` – wynik operacji  
+
 
 ## Przykłady użycia
 
