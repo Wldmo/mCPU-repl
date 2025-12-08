@@ -121,5 +121,3 @@ OUT RES
 ## Licencja
 
 MIT License – możesz używać, modyfikować i dzielić się kodem, zachowując informację o autorze.
-
-```
