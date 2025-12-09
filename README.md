@@ -77,7 +77,7 @@ Rejestry stworzone przez `DEF` zachowują się jak normalne pola pamięci z okre
 ## Przykłady użycia
 
 ### Tryb plikowy
-Stwórz plik `program.asb`:
+Stwórz plik `program.masm`:
 
 ```
 
@@ -94,7 +94,7 @@ JMP start
 Uruchom w terminalu:  
 
 ```bash
-python3 main.py -f program.asb
+python3 main.py -f program.masm
 ````
 
 ### Tryb interaktywny (REPL)
